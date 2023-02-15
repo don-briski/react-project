@@ -58,8 +58,18 @@
     
 }
 
-@media screen and (min-width: 950px){
+@media screen and (max-width: 950px){
     .gpt3__possibilty{
         flex-direction: column;
     }
+
+    .gpt3__possibilty-image{
+        margin: 1rem 0;
+
+    }
+
+    .gpt3__possibilty-content {
+        margin-top: 2rem;
+    }
+
 }
