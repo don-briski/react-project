@@ -82,7 +82,7 @@
     flex-direction: column;
 
     text-align: end;
-    background: var(--footer);
+    background: var(--color-footer);
     padding: 2rem;
     position: absolute;
     top: 40px;
@@ -124,7 +124,7 @@
 
 }
 
-/* small screen: phone and tablet*/
+/* small screen: phone */
 @media screen and (max-width:550px) {
     .gpt3__navbar{
         padding: 2rem;
