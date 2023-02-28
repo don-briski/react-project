@@ -4,7 +4,8 @@ import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, Special
 import { Navbar } from './components';
 import './App.css';
 
-const App = () => (
+const App = () => {
+  return(
   <div>
     <Navbar />
     <Header />
@@ -17,6 +18,7 @@ const App = () => (
     <FindUs />
     <Footer />
   </div>
-);
+)
+  };
 
 export default App;
