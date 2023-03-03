@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import styles from './styles'
-import { Clients, CTA, Footer, Testimonials, Hero, Navbar, Billing, Business, Stats } from './components'
+import { Clients, CTA, Footer, Testimonials, Hero, Navbar, Billing, Business, Stats, CardDeals } from './components'
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -24,6 +24,7 @@ function App() {
       <Stats />
         <Business /> 
         <Billing />
+        <CardDeals />
         <Testimonials /> 
         <Clients />
         <CTA />

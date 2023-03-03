@@ -121,6 +121,11 @@
   background: transparent;
 }
 
+.coin-logo:hover {
+  background: var(--black-gradient);
+  border-radius: 12px;
+}
+
 .feedback-card:hover {
   background: var(--black-gradient);
 }
